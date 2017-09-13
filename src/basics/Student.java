@@ -42,7 +42,7 @@ public class Student implements studentSkills {
 		return balance;
 	}
 	public  String toString(){
-		return (Name+" "+ssn+ " "+Email+" "+id+" "+balance+" "+phone+" "+city+" "+state);
+		return (name+" "+ssn+ " "+email+" "+id+" "+balance+" "+phone+" "+city+" "+state);
 				
 	}
 	public String showCourses(){
